@@ -1,0 +1,1 @@
+clang hardware.c -g -I include -I ~/core/include -I ~/core/libvndksupport/include -I ~/logging/liblog/include  -shared -l cutils -l vndksupport -l log -o libhardware.so && cp libhardware.so ~/../usr/lib/ -i
